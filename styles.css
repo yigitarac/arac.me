@@ -21,7 +21,7 @@ body {
     gap: 20px;
     margin-left: auto;
     font-size: 18px;
-    font-weight: 500px;
+    font-weight: 500;
 }
 .realNavBar {
     max-width: 950px;
@@ -36,10 +36,24 @@ body {
 }
 .hero-link {
     font-size: 24px;
-    font-weight: 700px;
+    font-weight: 700;
 }
 .realNavBar a:hover {
     color: #81a1c1;
 }
-section {
+.hero {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.hero h1 {
+    font-size: 48px;
+    font-weight: 500;
+    margin: 0;
+}
+.description {
+    font-size: 16px;
+    color: #d8dee9;
+    line-height: 1.5;
+    font-weight: 400;
+    white-space: nowrap
 }
