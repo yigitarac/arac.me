@@ -8,6 +8,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <script src="https://unpkg.com/lucide@latest"></script>
     </head>
 
     <body>
@@ -47,13 +48,33 @@
             </section>
             <section class="projects" id="projects">
                 <h2>Projects</h2>
-                <div class="projectCloud">
-                    <h3>Pionter Cloud</h3>
-                    <p>Go, Next.js, Tailwind CSS, PostgreSQL</p>
+                <div class="project-list">
+                <a href="https://github.com/yigitarac/pionter-cloud" class="project" target="_blank" rel="nooper noreferrer">
+                    <div class="project-name-container">
+                        <h3>Pionter Cloud</h3>
+                        <span class="icon"><i data-lucide="arrow-up-right"></i></span>
+                    </div>
+                    <p>a byos cloud file manager</p>
+                <div class="skill-list">
+                    <span class="skill-class">Go</span>
+                    <span class="skill-class">Next.js</span>
+                    <span class="skill-class">Tailwind CSS</span>
+                    <span class="skill-class">PostgreSQL</span>
                 </div>
-                <div class="projectShortener">
-                    <h3>URL Shortener</h3>
-                    <p>Go, Javascript, Tailwind CSS, PostgreSQL</p>
+                </a>
+                <a href="https://github.com/yigitarac/go-url-shortener" class="project" target="_blank" rel="nooper noreferrer">
+                    <div class="project-name-container">
+                        <h3>URL Shortener</h3>
+                        <span class="icon"><i data-lucide="arrow-up-right"></i></span>
+                    </div>
+                    <p>simple url shortener built with go</p>
+                <div class="skill-list">
+                    <span class="skill-class">Go</span>
+                    <span class="skill-class">Javascript</span>
+                    <span class="skill-class">Tailwind CSS</span>
+                    <span class="skill-class">PostgreSQL</span>
+                </div>
+                </a>
                 </div>
             </section>
             <section class="contact" id="contact">
@@ -73,4 +94,7 @@
             Yiğit Araç @ 2026
         </footer>
     </body>
+<script>
+  lucide.createIcons();
+</script>
 </html>
