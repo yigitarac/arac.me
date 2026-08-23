@@ -81,32 +81,52 @@
             <section class="contact" id="contact">
                 <h2>Contact</h2>
                 <div class="mail">
-    <a href="mailto:yigit@arac.me">
-        <i class="fa-solid fa-envelope"></i>
-        yigit@arac.me
-    </a>
-</div>
+                    <a href="mailto:yigit@arac.me">
+                        <i class="fa-solid fa-envelope"></i>
+                        yigit@arac.me
+                    </a>
+                </div>
 
-<div class="portfolios">
-    <a href="https://github.com/yigitarac" target="_blank" rel="noopener noreferrer">
-        <i class="fa-brands fa-github"></i>
-        yigitarac
-    </a>
+                <div class="portfolios">
+                    <a href="https://github.com/yigitarac" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-github"></i>
+                        yigitarac
+                    </a>
 
-    <a href="https://www.linkedin.com/in/yigitarac/" target="_blank" rel="noopener noreferrer">
-        <i class="fa-brands fa-linkedin"></i>
-        Yiğit Araç
-    </a>
+                    <a href="https://www.linkedin.com/in/yigitarac/" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-linkedin"></i>
+                        Yiğit Araç
+                    </a>
 
-    <p>CV: /*pdf olarak buraya cv koyarım*/</p>
-</div>
+                    <p>CV: /*pdf olarak buraya cv koyarım*/</p>
+                </div>
             </section>
         </main>
         <footer class="footer">
             Yiğit Araç © 2026
         </footer>
+<button class="back-to-top" aria-label="Back to top">
+    <i data-lucide="arrow-up"></i>
+</button>
 <script>
-  lucide.createIcons();
+    lucide.createIcons();
+
+    const backToTop = document.querySelector(".back-to-top");
+
+    window.addEventListener("scroll", () => {
+        if (window.scrollY > 300) {
+            backToTop.classList.add("show");
+        } else {
+            backToTop.classList.remove("show");
+        }
+    });
+
+    backToTop.addEventListener("click", () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    });
 </script>
     </body>
 </html>
