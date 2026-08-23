@@ -164,3 +164,32 @@ body {
     padding-top: 80px;
     padding-bottom: 80px;
 }
+.contact {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.mail {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+.mail a {
+    text-decoration: none;
+    color: #d8dee9;
+}
+.portfolios a{
+    text-decoration: none;
+    color: #d8dee9;
+}
+.portfolios {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.mail a:hover {
+    color: #81a1c1;
+}
+.portfolios a:hover {
+    color: #81a1c1;
+}
