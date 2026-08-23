@@ -193,3 +193,17 @@ body {
 .portfolios a:hover {
     color: #81a1c1;
 }
+.footer {
+    width: 100%;
+    background-color: #3b4252;
+    padding: 24px 30px;
+    box-sizing: border-box;
+}
+
+.footer-inner {
+    max-width: 950px;
+    width: 100%;
+    margin: auto;
+    font-size: 14px;
+    color: #8f98a8;
+}
