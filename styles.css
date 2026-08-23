@@ -57,3 +57,26 @@ body {
     font-weight: 400;
     white-space: nowrap
 }
+.about h2 {
+    font-size: 32px;
+}
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+.about {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.skill-class {
+    padding: 10px;
+    border: solid 2px;
+    border-color: #81a1c1;
+    border-radius: 8px;
+    color: #d8dee9;
+}
